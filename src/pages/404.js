@@ -11,7 +11,7 @@ export function page404(req, res) {
       `
       <section class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 m-lg-2 col-xl-3 m-xl-3">
+                <div class="col-12 col-md-6 col-lg-4 m-lg-2 col-xl-4 m-xl-3">
                     <h1 class="main-title">404</h1>
                     <p class="sub-title">Lost in space</p>
                     <div class="line"></div>

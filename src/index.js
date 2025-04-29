@@ -1,6 +1,7 @@
 import express from "express";
 import { pageHome } from "./pages/home.js";
 import { pageAbout } from "./pages/about.js";
+import { pagePricing } from "./pages/pricing.js";
 import { pageUserInner } from "./pages/user.js";
 import { page404 } from "./pages/404.js";
 const app = express();
@@ -11,6 +12,7 @@ app.use(express.static("public"));
 app.get("/", pageHome);
 app.get("/about", pageAbout);
 app.get("/users/:userID", pageUserInner);
+app.get("/pricing", pagePricing);
 app.get("*error", page404);
 
 app.listen(port, () => {

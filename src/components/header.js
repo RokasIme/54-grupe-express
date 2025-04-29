@@ -2,6 +2,7 @@ export function header(activeMenuIndex = -1) {
   const menu = [
     { href: "/", text: "Home" },
     { href: "/about", text: "About us" },
+    { href: "/pricing", text: "Pricing" },
     { href: "/users", text: "Users" },
   ];
 

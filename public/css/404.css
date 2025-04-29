@@ -1,0 +1,47 @@
+.main-title {
+  font-size: 60px;
+  margin: 0;
+  font-weight: normal;
+}
+.sub-title {
+  font-size: 50px;
+  margin: 0;
+  font-weight: bold;
+}
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #649;
+}
+.description {
+  color: #555;
+  margin: 1rem 0;
+}
+.btn-group {
+  display: inline-block;
+}
+
+.btn {
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #649;
+  color: #fff;
+  border: 3px solid #649;
+  text-decoration: none;
+  user-select: none;
+  box-shadow: 0px 4px 8px #0004;
+}
+.btn.btn-white {
+  background-color: #fff;
+  color: #333;
+}
+.btn:hover {
+  box-shadow: 0px 6px 12px #0007;
+  color: red;
+  border-radius: 0;
+}

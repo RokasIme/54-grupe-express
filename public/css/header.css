@@ -1,0 +1,28 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+.main-header .logo {
+  height: 2.4rem;
+  width: 12rem;
+  object-fit: contain;
+  object-position: left;
+}
+.main-header .main-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main-header .link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.main-header .link:hover,
+.main-header .link.active {
+  color: #eb232b;
+}

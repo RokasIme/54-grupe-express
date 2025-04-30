@@ -17,3 +17,13 @@ body * {
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+.bg-grey {
+  background-color: #eee;
+}
+
+.block {
+  padding: 1rem;
+  box-shadow: 0 0.2rem 0.4rem #0003;
+  border-radius: 0.5rem;
+}

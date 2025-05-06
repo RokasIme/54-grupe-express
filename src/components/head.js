@@ -16,6 +16,8 @@ export function head(pageName = "") {
         <link rel="stylesheet" href="/css/404.css" />
         <link rel="stylesheet" href="/css/choose-your-plan.css" />
         <link rel="stylesheet" href="/css/section-title.css" />
+        <link rel="stylesheet" href="/css/form.css" />
+
         <title>${title}</title>
     </head>`;
 }

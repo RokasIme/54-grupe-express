@@ -4,6 +4,7 @@ export function header(activeMenuIndex = -1) {
     { href: "/about", text: "About us" },
     { href: "/pricing", text: "Pricing" },
     { href: "/users", text: "Users" },
+    { href: "/add-text", text: "Add text" },
   ];
 
   let menuHTML = "";

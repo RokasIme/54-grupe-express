@@ -1,6 +1,8 @@
 import { textList } from "../../pages/home.js";
 
 export function textPost(req, res) {
+  console.log("---");
+  console.log(req.body);
   if (typeof req.body === "object" && typeof req.body.text === "string") {
     textList.push(req.body.text);
     return res.json({

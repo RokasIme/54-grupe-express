@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(express.json()); // kodas kuris padeda gauti post duomenis
 
 app.use("/", pageRouter);
-app.use("/", apiRouter);
+app.use("/api", apiRouter);
 
 app.get("*error", page404);
 
